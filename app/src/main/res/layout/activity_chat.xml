@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#c1cee2"
+    tools:context=".chat">
+  <androidx.appcompat.widget.Toolbar
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="#1f35c4"
+      app:titleTextColor="@color/white"
+      android:paddingTop="10dp"
+      android:paddingBottom="10dp"
+      app:titleMarginStart="30dp"
+      android:id="@+id/bar"/>
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      android:id="@+id/chat"
+        android:textSize="18dp"
+        android:text="تارئخ"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="190dp"
+        android:layout_height="64dp"
+        android:layout_below="@id/chat"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/prof"
+        android:background="#4871cf"
+        android:paddingLeft="15dp"
+        android:paddingTop="15dp"
+        android:text="Hi..I saw your post you want a graphic designer..."
+        android:textColor="@color/white"
+
+        />
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+      android:id="@+id/prof"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="50dp"
+        android:layout_below="@id/chat"
+        android:background="@drawable/user"
+        />
+  </RelativeLayout>
+
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      >
+
+    <TextView
+        android:layout_width="85dp"
+        android:layout_height="55dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="25dp"
+        android:background="#4871cf"
+        android:paddingLeft="15dp"
+        android:paddingTop="15dp"
+        android:text="Booked"
+        android:textColor="@color/white"
+
+        />
+
+  </RelativeLayout>
+</LinearLayout>

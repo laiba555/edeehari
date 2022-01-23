@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.andzroid.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/firstback"
+        android:rotation="360" />
+
+    <Button
+        android:id="@+id/but"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="265dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#3a5785"
+        android:paddingLeft="30dp"
+        android:paddingTop="10dp"
+        android:paddingRight="30dp"
+        android:paddingBottom="10dp"
+        android:text="سائن ان"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/reg"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/but"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#3a5785"
+        android:paddingLeft="30dp"
+        android:paddingTop="10dp"
+        android:paddingRight="30dp"
+        android:paddingBottom="10dp"
+        android:text="رجسٹر"
+        android:textSize="25dp" />
+
+
+</RelativeLayout>

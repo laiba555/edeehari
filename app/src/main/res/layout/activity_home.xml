@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gg"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="105dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="سلکٹ سروس "
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="24dp"
+            android:textStyle="bold"
+
+            />
+
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        app:cardCornerRadius="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#c1cee2"
+            android:onClick="Painting"
+            android:padding="14dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:orientation="vertical"
+                        android:layout_marginLeft="53dp"
+                            android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="پئنٹنگ"
+                            android:layout_gravity="center_horizontal"
+                            android:id="@+id/paint"
+                            android:textColor="@color/black"
+                            android:textSize="24dp" />
+
+                        <ImageView
+                            android:layout_width="183dp"
+                            android:layout_height="84dp"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@drawable/brush" />
+                    </LinearLayout>
+                    </LinearLayout>
+            </LinearLayout>
+                </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#c1cee2"
+            android:onClick="Poet"
+            android:padding="14dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="53dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="شاعرئ"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="@color/black"
+                        android:textSize="24dp" />
+
+                        <ImageView
+                            android:layout_width="183dp"
+                            android:layout_height="84dp"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@drawable/poetry" />
+
+                    </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#c1cee2"
+            android:onClick="sketch"
+            android:padding="14dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="53dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="خاکہ نگارئ"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="@color/black"
+                        android:textSize="24dp" />
+
+                    <ImageView
+                        android:layout_width="183dp"
+                        android:layout_height="84dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/drawing" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</ScrollView>
